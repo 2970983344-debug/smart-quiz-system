@@ -1,0 +1,118 @@
+[
+  {
+    "id": "PY001",
+    "category": "Python基础",
+    "type": "single",
+    "title": "Python 中用于定义函数的关键字是？",
+    "options": {
+      "A": "func",
+      "B": "def",
+      "C": "function",
+      "D": "lambda"
+    },
+    "answer": "B",
+    "explanation": "Python 使用 def 关键字定义普通函数。"
+  },
+  {
+    "id": "PY002",
+    "category": "Python基础",
+    "type": "multiple",
+    "title": "以下哪些是 Python 的内置数据类型？",
+    "options": {
+      "A": "list",
+      "B": "dict",
+      "C": "tuple",
+      "D": "arraylist"
+    },
+    "answer": ["A", "B", "C"],
+    "explanation": "list、dict、tuple 都是 Python 常见内置数据类型。"
+  },
+  {
+    "id": "NET001",
+    "category": "计算机网络",
+    "type": "single",
+    "title": "HTTP 默认使用的端口号是？",
+    "options": {
+      "A": "21",
+      "B": "22",
+      "C": "80",
+      "D": "443"
+    },
+    "answer": "C",
+    "explanation": "HTTP 默认端口是 80，HTTPS 默认端口是 443。"
+  },
+  {
+    "id": "NET002",
+    "category": "计算机网络",
+    "type": "judge",
+    "title": "TCP 是面向连接的传输层协议。",
+    "options": {},
+    "answer": "T",
+    "explanation": "TCP 需要建立连接，并提供可靠传输。"
+  },
+  {
+    "id": "DS001",
+    "category": "数据结构",
+    "type": "single",
+    "title": "栈的典型特性是？",
+    "options": {
+      "A": "先进先出",
+      "B": "后进先出",
+      "C": "随机访问",
+      "D": "按键查找"
+    },
+    "answer": "B",
+    "explanation": "栈遵循 LIFO，即后进先出。"
+  },
+  {
+    "id": "DS002",
+    "category": "数据结构",
+    "type": "judge",
+    "title": "队列通常遵循先进先出原则。",
+    "options": {},
+    "answer": "T",
+    "explanation": "队列遵循 FIFO，即先进先出。"
+  },
+  {
+    "id": "OS001",
+    "category": "操作系统",
+    "type": "single",
+    "title": "操作系统中进程和线程的关系描述正确的是？",
+    "options": {
+      "A": "线程是资源分配的基本单位",
+      "B": "进程是 CPU 调度的最小单位",
+      "C": "一个进程可以包含多个线程",
+      "D": "进程和线程完全相同"
+    },
+    "answer": "C",
+    "explanation": "进程是资源分配的基本单位，一个进程可以包含多个线程。"
+  },
+  {
+    "id": "DB001",
+    "category": "数据库",
+    "type": "single",
+    "title": "SQL 中用于查询数据的关键字是？",
+    "options": {
+      "A": "SELECT",
+      "B": "INSERT",
+      "C": "UPDATE",
+      "D": "DELETE"
+    },
+    "answer": "A",
+    "explanation": "SELECT 用于从数据库中查询数据。"
+  },
+  {
+    "id": "DB002",
+    "category": "数据库",
+    "type": "multiple",
+    "title": "以下哪些属于常见数据库约束？",
+    "options": {
+      "A": "PRIMARY KEY",
+      "B": "FOREIGN KEY",
+      "C": "UNIQUE",
+      "D": "PRINT"
+    },
+    "answer": ["A", "B", "C"],
+    "explanation": "PRIMARY KEY、FOREIGN KEY、UNIQUE 都是常见数据库约束。"
+  }
+]
